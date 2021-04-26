@@ -1,0 +1,16 @@
+citHeader("To cite the 'semmcmc' package in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+bibentry(bibtype = "Article",
+         title = "Bayesian Structural Equation Modeling in Lifetime Data with Application to Circadian Genes",
+         author = c(person("Maity", "Arnab Kumar"),
+                    person("Sarkar", "Tapasree Roy"),
+                    person("Lee", "Sang Chan"),
+                    person("Mallick", "Bani K.")),
+         journal = "Statistics in Medicine",
+         pages = "1-10",
+         year = "2019",
+         publisher = "Taylor and Francis",
+         url = "https://doi.org/10.1080/00031305.2017.1407359")
